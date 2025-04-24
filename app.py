@@ -12,6 +12,7 @@ from pytorch_grad_cam.utils.image import show_cam_on_image
 import matplotlib.pyplot as plt
 import requests
 from io import BytesIO
+import cv2
 
 # Titre de l'app
 st.set_page_config(page_title="Filtration Anomaly Detection", layout="centered")
